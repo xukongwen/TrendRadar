@@ -137,4 +137,5 @@ platforms:
   # DeepMind 官方博客
   - id: "deepmind-blog"
     name: "DeepMind Blog"
-    url: "https://deepmind.google
+    url: "https://deepmind.google/rss"
+    type: "rss"
