@@ -100,14 +100,11 @@ platforms:
   - id: "zhihu"
     name: "知乎"
     # === 🌍 国际科技 / AI 源 ===
-
-  # Hacker News
   - id: "hackernews"
     name: "Hacker News"
     url: "https://hacker-news.firebaseio.com/v0/topstories.json"
     type: "json"
 
-  # Reddit AI 相关
   - id: "reddit-ml"
     name: "Reddit /r/MachineLearning"
     url: "https://www.reddit.com/r/MachineLearning/.rss"
@@ -128,14 +125,67 @@ platforms:
     url: "https://www.reddit.com/r/LocalLLaMA/.rss"
     type: "rss"
 
-  # OpenAI 官方博客
   - id: "openai-blog"
     name: "OpenAI Blog"
     url: "https://openai.com/blog/rss"
     type: "rss"
 
-  # DeepMind 官方博客
   - id: "deepmind-blog"
     name: "DeepMind Blog"
     url: "https://deepmind.google/rss"
+    type: "rss"
+
+  - id: "anthropic-blog"
+    name: "Anthropic Blog"
+    url: "https://www.anthropic.com/news/rss"
+    type: "rss"
+
+  - id: "nvidia-news"
+    name: "NVIDIA News"
+    url: "https://nvidianews.nvidia.com/releases.rss"
+    type: "rss"
+
+  - id: "techcrunch"
+    name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+    type: "rss"
+
+  - id: "theverge"
+    name: "The Verge"
+    url: "https://www.theverge.com/rss/index.xml"
+    type: "rss"
+
+  - id: "mit-techreview"
+    name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"
+    type: "rss"
+
+  - id: "wired"
+    name: "Wired"
+    url: "https://www.wired.com/feed/rss"
+    type: "rss"
+
+  - id: "arstechnica"
+    name: "Ars Technica"
+    url: "http://feeds.arstechnica.com/arstechnica/index/"
+    type: "rss"
+
+  - id: "bloomberg-tech"
+    name: "Bloomberg Technology"
+    url: "https://www.bloomberg.com/feeds/pages/technology.xml"
+    type: "rss"
+
+  - id: "cnbc-tech"
+    name: "CNBC Technology"
+    url: "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+    type: "rss"
+
+  - id: "arxiv-ai"
+    name: "arXiv (AI)"
+    url: "http://export.arxiv.org/rss/cs.AI"
+    type: "rss"
+
+  - id: "arxiv-ml"
+    name: "arXiv (Machine Learning)"
+    url: "http://export.arxiv.org/rss/stat.ML"
     type: "rss"
