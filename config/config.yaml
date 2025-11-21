@@ -93,23 +93,49 @@ weight:
 platforms:
   - id: "toutiao"
     name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
   - id: "wallstreetcn-hot"
     name: "华尔街见闻"
   - id: "thepaper"
     name: "澎湃新闻"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
-  - id: "cls-hot"
-    name: "财联社热门"
-  - id: "ifeng"
-    name: "凤凰网"
-  - id: "tieba"
-    name: "贴吧"
-  - id: "weibo"
-    name: "微博"
-  - id: "douyin"
-    name: "抖音"
   - id: "zhihu"
     name: "知乎"
+    # === 🌍 国际科技 / AI 源 ===
+
+  # Hacker News
+  - id: "hackernews"
+    name: "Hacker News"
+    url: "https://hacker-news.firebaseio.com/v0/topstories.json"
+    type: "json"
+
+  # Reddit AI 相关
+  - id: "reddit-ml"
+    name: "Reddit /r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/.rss"
+    type: "rss"
+
+  - id: "reddit-artificial"
+    name: "Reddit /r/Artificial"
+    url: "https://www.reddit.com/r/artificial/.rss"
+    type: "rss"
+
+  - id: "reddit-openai"
+    name: "Reddit /r/OpenAI"
+    url: "https://www.reddit.com/r/OpenAI/.rss"
+    type: "rss"
+
+  - id: "reddit-local-llama"
+    name: "Reddit /r/LocalLLaMA"
+    url: "https://www.reddit.com/r/LocalLLaMA/.rss"
+    type: "rss"
+
+  # OpenAI 官方博客
+  - id: "openai-blog"
+    name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss"
+    type: "rss"
+
+  # DeepMind 官方博客
+  - id: "deepmind-blog"
+    name: "DeepMind Blog"
+    url: "https://deepmind.google
+
